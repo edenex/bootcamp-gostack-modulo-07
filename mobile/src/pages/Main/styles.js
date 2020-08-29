@@ -13,9 +13,7 @@ export const ProductList = styled.View`
   border-radius: 8px;
   width: 260px;
   padding: 16px;
-  margin-left: 16px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px 8px;
 `;
 
 export const ProductImage = styled.Image.attrs({
