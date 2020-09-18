@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { RectButton } from 'react-native-gesture-handler';
 import { darken } from 'polished';
 import colors from '../../styles/colors';
 
@@ -12,6 +13,7 @@ export const ProductList = styled.View`
   background: ${colors.white};
   border-radius: 8px;
   width: 260px;
+  height: 440px;
   padding: 16px;
   margin: 16px 8px;
 `;
@@ -23,7 +25,9 @@ export const ProductImage = styled.Image.attrs({
   height: 200px;
 `;
 
-export const ProductTitle = styled.Text`
+export const ProductTitle = styled.Text.attrs({
+  numberOfLines: 3,
+})`
   font-size: 18px;
   color: ${colors.darkText};
 `;
@@ -33,13 +37,15 @@ export const ProductPrice = styled.Text`
   font-size: 22px;
   color: ${colors.dark};
   font-weight: bold;
+  margin-bottom: 14px;
 `;
 
-export const AddButton = styled.TouchableOpacity`
+export const AddButton = styled(RectButton)`
   background: ${colors.primary};
   border-radius: 4px;
   flex-direction: row;
   align-items: center;
+  margin-top: auto;
 `;
 
 export const ProductAmount = styled.View`
@@ -53,7 +59,7 @@ export const ProductAmount = styled.View`
 
 export const ProductAmountText = styled.Text`
   color: ${colors.white};
-  margin: 0 10px 0 10px;
+  margin: 0 4px 0 10px;
 `;
 
 export const AddButtonText = styled.Text`
@@ -61,6 +67,5 @@ export const AddButtonText = styled.Text`
   color: ${colors.white};
   font-size: 16px;
   font-weight: bold;
-  margin: 0 10px 0 10px;
   text-align: center;
 `;

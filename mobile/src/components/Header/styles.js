@@ -25,9 +25,10 @@ export const Logo = styled.Image.attrs({
 `;
 
 export const BasketContainer = styled.TouchableOpacity`
+  flex: 1;
   width: 24px;
   height: 24px;
-  flex: 1;
+  margin-right: 20px;
   align-items: flex-end;
   justify-content: flex-end;
 `;

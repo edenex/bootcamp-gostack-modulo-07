@@ -26,8 +26,9 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
-    'no-console': 'off',
-
+    'no-param-reassign': 'off',
+    'no-console': ['error', { allow: ['tron'] }],
+    'react/prop-types': 'off',
     'react/static-property-placement': [
       'warn',
       'property assignment',
