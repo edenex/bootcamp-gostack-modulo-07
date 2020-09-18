@@ -14,13 +14,13 @@ O projeto apresenta basicamente 3 telas (screens):
 
 #### Nesta tela é possível visualizar os produtos disponíveis via API.
 
-<img src="./src/assets/screens/app_screen_01.png" alt="Telas do App RocketShoes">
+<img src="./mobile/src/assets/screens/app_screen_01.png" alt="Tela principal do carrinho">
 
 ### Cart:
 
 #### Nesta tela é possível visualizar os produtos selecionados, acrescentar mais itens aos produto e remover o produto do carrinho de compras.
 
-<img src="./src/assets/screens/app_screen_02.png" alt="Página user do projeto">
+<img src="./mobile/src/assets/screens/app_screen_02.png" alt="Cesta de produtos do carrinho">
 
 ### Header:
 
