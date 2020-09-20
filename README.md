@@ -24,7 +24,7 @@ O projeto apresenta basicamente 3 telas (screens):
 
 ### Cart:
 
-#### Nesta tela é possível visualizar os produtos selecionados, acrescentar mais itens aos produto e remover o produto do carrinho de compras.
+#### Nesta tela é possível visualizar os produtos selecionados, acrescentar mais itens ao produto e remover o produto do carrinho de compras.
 
 <img src="./mobile/src/assets/screens/screen_cart.png" alt="Tela Cart do App RocketShoes">
 
@@ -32,14 +32,14 @@ O projeto apresenta basicamente 3 telas (screens):
 
 #### No Header do app é possível visualizar quantos produtos foram acrescentados ao carrinho de compra.
 
-<img src="./mobile/src/assets/screens/screen_web_header.png" alt="Header do App RocketShoes">
+<img src="./mobile/src/assets/screens/screen_header.png" alt="Header do App RocketShoes">
 
 ## :black_nib: Funcionalidades
 
-1. Selecionar os produtos do app adicionando-os ao carrinho.
-2. Acessar no Header (cabeçalho) do app a cesta de produtos.
-3. Ao entrar na cesta de carrinho é possivel aumentar a quantidade de itens do produto.
-4. O sistema informa ao usuário quanto já não há mais disponibilidade de items para adicionar ao produto ("quantidade solicitada fora de estoque").
+1. Selecionar o produto para adicioná-lo ao carrinho.
+2. Acessar a cesta de produtos pelo Header da aplicação.
+3. Ao entrar na cesta de carrinho é possivel aumentar/diminuir a quantidade de itens do produto.
+4. Ao adicionar mais itens ao produto na cesta do carrinho a aplicação informa quando a quantidade solicitada está fora de estoque.
 5. Também é possível remover o produto da cesta do carrinho. Uma vez sem produtos na cesta o sistema apresenta a mensagem "Seu carrinho está vazio".
 
 ## :rocket: Tecnologias
@@ -56,7 +56,7 @@ As principais tecnologias/bibliotecas utilizadas são:
 
 ## :construction_worker: Como utilizar
 
-Basta clonar o projeto utilizando o comando abaixo:
+Você pode clocar o repositório deste projeto em sua estação de trabalho utilizando o comando abaixo:
 
 git clone https://github.com/edenex/bootcamp-gostack-modulo-07.git
 
