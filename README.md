@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="RocketShoes" src="./mobile/src/assets/images/logo.png" width="220px" />
+  <img alt="Logo RocketShoes" src="./mobile/src/assets/screens/logo_rocketshoes.png" />
 </h1>
 
 <h1 align="center">
@@ -19,22 +19,20 @@ O projeto apresenta basicamente 3 telas (screens):
 #### Nesta tela é possível visualizar os produtos disponíveis via API e adicioná-los ao carrinho de compras.
 
 <h3>
-  <img src="./mobile/src/assets/screens/app_screen_01.png" alt="Tela principal do carrinho" width="195px">
-  <img src="./mobile/src/assets/screens/screen_web_home.png" alt="Tela principal do carrinho" width="660px">
+  <img src="./mobile/src/assets/screens/screen_home.png" alt="Tela Home do App RocketShoes">
 </h3>
 
 ### Cart:
 
 #### Nesta tela é possível visualizar os produtos selecionados, acrescentar mais itens aos produto e remover o produto do carrinho de compras.
 
-<img src="./mobile/src/assets/screens/app_screen_02.png" alt="Cesta de produtos do carrinho" width="198px">
-<img src="./mobile/src/assets/screens/screen_web_cart.png" alt="Cesta de produtos do carrinho" width="660px">
+<img src="./mobile/src/assets/screens/screen_cart.png" alt="Tela Cart do App RocketShoes">
 
 ### Header:
 
 #### No Header do app é possível visualizar quantos produtos foram acrescentados ao carrinho de compra.
 
-<img src="./mobile/src/assets/screens/screen_web_header.png" alt="Cesta de produtos do carrinho" width="660px">
+<img src="./mobile/src/assets/screens/screen_web_header.png" alt="Header do App RocketShoes">
 
 ## :black_nib: Funcionalidades
 
