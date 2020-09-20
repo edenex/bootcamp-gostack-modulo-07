@@ -1,30 +1,40 @@
 <h1 align="center">
-Desafio 7: App RocketShoes do GoStack da Rocketseat.
+  <img alt="RocketShoes" src="./mobile/src/assets/images/logo.png" />
 </h1>
+
+<h1 align="center">
+  Aplicação para um carrinho de compras web e mobile utilizando conceitos de Redux Saga. 
+</h3>
 
 ## :information_source: Sobre o projeto
 
-- Este projeto apresenta a versão web com ReactJS e mobile com React Native do app RocketShoes.
+- Este projeto apresenta a versão web e mobile do app RocketShoes.
 - Este projeto disponibiliza um carrinho de compra de tênis.
 - A principal funcionalidade é o uso do framework Redux-Saga.
 
 O projeto apresenta basicamente 3 telas (screens):
 
-### Main:
+### Main/Home:
 
-#### Nesta tela é possível visualizar os produtos disponíveis via API.
+#### Nesta tela é possível visualizar os produtos disponíveis via API e adicioná-los ao carrinho de compras.
 
-<img src="./mobile/src/assets/screens/desktop_main.png" alt="Tela principal do carrinho">
+<h3>
+  <img src="./mobile/src/assets/screens/app_screen_01.png" alt="Tela principal do carrinho" width="195px">
+  <img src="./mobile/src/assets/screens/screen_web_home.png" alt="Tela principal do carrinho" width="660px">
+</h3>
 
 ### Cart:
 
 #### Nesta tela é possível visualizar os produtos selecionados, acrescentar mais itens aos produto e remover o produto do carrinho de compras.
 
-<img src="./mobile/src/assets/screens/app_screen_02.png" width="280px" alt="Cesta de produtos do carrinho">
+<img src="./mobile/src/assets/screens/app_screen_02.png" alt="Cesta de produtos do carrinho" width="198px">
+<img src="./mobile/src/assets/screens/screen_web_cart.png" alt="Cesta de produtos do carrinho" width="660px">
 
 ### Header:
 
 #### No Header do app é possível visualizar quantos produtos foram acrescentados ao carrinho de compra.
+
+<img src="./mobile/src/assets/screens/screen_web_header.png" alt="Cesta de produtos do carrinho" width="660px">
 
 ## :black_nib: Funcionalidades
 
