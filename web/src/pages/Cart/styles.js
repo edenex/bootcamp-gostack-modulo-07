@@ -93,3 +93,18 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+
+export const EmptyContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 21px;
+    margin-top: 20px;
+  }
+`;

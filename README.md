@@ -14,13 +14,13 @@ O projeto apresenta basicamente 3 telas (screens):
 
 #### Nesta tela é possível visualizar os produtos disponíveis via API.
 
-<img src="./mobile/src/assets/screens/app_screen_01.png" alt="Tela principal do carrinho">
+<img src="./mobile/src/assets/screens/desktop_main.png" alt="Tela principal do carrinho">
 
 ### Cart:
 
 #### Nesta tela é possível visualizar os produtos selecionados, acrescentar mais itens aos produto e remover o produto do carrinho de compras.
 
-<img src="./mobile/src/assets/screens/app_screen_02.png" alt="Cesta de produtos do carrinho">
+<img src="./mobile/src/assets/screens/app_screen_02.png" width="280px" alt="Cesta de produtos do carrinho">
 
 ### Header:
 

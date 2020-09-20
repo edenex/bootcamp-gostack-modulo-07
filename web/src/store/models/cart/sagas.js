@@ -26,6 +26,8 @@ function* addToCart({ id }) {
 
   if (productExists) {
     yield put(updateAmountSuccess(id, amount));
+
+    history.push('/cart');
   } else {
     const response = yield call(api.get, `/products/${id}`);
 
